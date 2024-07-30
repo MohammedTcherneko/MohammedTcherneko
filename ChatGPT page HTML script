@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Turkish with Mohammed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            background: #555;
+            padding: 5px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .audio {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn Turkish with Mohammed</h1>
+    </header>
+    <nav>
+        <a href="#basic-phrases">Basic Phrases</a>
+        <a href="#practice-activities">Practice Activities</a>
+        <a href="#vocabulary">Vocabulary</a>
+        <a href="#cultural-insights">Cultural Insights</a>
+    </nav>
+    <div class="container">
+        <section id="basic-phrases">
+            <h2>Basic Phrases</h2>
+            <div class="audio">
+                <p><strong>Hello:</strong> Merhaba <audio controls><source src="audio/hello.mp3" type="audio/mpeg"></audio></p>
+                <p><strong>How are you?:</strong> Nasılsın? <audio controls><source src="audio/how_are_you.mp3" type="audio/mpeg"></audio></p>
+                <p><strong>Yes:</strong> Evet <audio controls><source src="audio/yes.mp3" type="audio/mpeg"></audio></p>
+                <p><strong>No:</strong> Hayır <audio controls><source src="audio/no.mp3" type="audio/mpeg"></audio></p>
+            </div>
+        </section>
+        <section id="practice-activities">
+            <h2>Practice Activities</h2>
+            <p>Role-play simple dialogues with audio guidance.</p>
+        </section>
+        <section id="vocabulary">
+            <h2>Vocabulary</h2>
+            <p>Expand your vocabulary with themed lists and flashcards.</p>
+        </section>
+        <section id="cultural-insights">
+            <h2>Cultural Insights</h2>
+            <p>Learn about Turkish culture and relevant phrases.</p>
+        </section>
+    </div>
+</body>
+</html>
